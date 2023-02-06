@@ -1,0 +1,67 @@
+1. Write a program to check if a given number is prime or not.
+   Sample Input:
+   Input a number to check prime or not: 13
+
+   Sample Output:
+   The entered number is a prime number.
+
+2. Write a program to calculate the factorial of a number.
+   Sample Input:
+   Input a number to find the factorial: 5
+
+   Sample output:
+   The factorial of the given number is: 120 
+
+3. Write a program to calculate the Greatest Common Divisor (GCD) of two numbers.
+   Sample Input:
+   Input the first number: 25
+   Input the second number: 15
+
+   Sample Output:
+   The Greatest Common Divisor is: 5
+
+
+   /////////////// Extras ///////////////
+
+   1. Write a program to find the second largest element in a given array of integers.
+		Sample Input: -4 3 6 2 -3 -1 7 9
+		Sample Output: 7
+
+	2. Write a program to find the most occurring element in a given array of integers.
+		Sample Input: -4 3 6 2 -3 -1 7 9 -3
+		Sample Output: -3
+
+	3. Write a program that rearranges all negative integers before all positive integers in a given array of mixed positive and negative integers.
+		Sample Input: -4 3 6 2 -3 -1 7 9
+		Sample Output: -4 -3 -1 3 6 2 7 9
+
+	4. Write a program that reverses a string and prints it on the screen.
+		Sample Input: Hello, World
+		Sample Output: dlroW ,olleH
+
+	5. Write a program to change every letter in a given string with the letter following it in the alphabet (ie. a becomes b, p becomes q, z becomes a).
+		Sample Input: Hello, World
+		Sample Output: Ifmmp, Xpsme
+
+	6. Write a program to capitalize the first letter of each word of a given string. Words must be separated by only one space.
+		Sample Input: hello, world
+		Sample Output: Hello, World
+
+	7. Write a program to count all the words in a given string.
+		Sample Input: The quick brown fox jumps over the lazy dog
+		Sample Output: 9 words
+
+	8. Write a program to check if a given string is a Palindrome or not.
+		Sample Input: Race car
+		Sample Output: True
+
+	9. Write a program to replace multiple occurrences of spaces with single space between adjacent words of a given sentence.
+		Sample Input: The quick       brown fox      jumps over the     lazy dog
+		Sample Output: The quick brown fox jumps over the lazy dog
+
+	10 Write a C++ program to change the case (lower to upper and upper to lower cases) of each character of a given string.
+		Sample Input: Python
+		Sample Output: pYTHON
+
+
+
