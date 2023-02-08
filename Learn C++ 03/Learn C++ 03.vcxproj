@@ -21,6 +21,14 @@
   <ItemGroup>
     <Text Include="Day 05\02 extern C\Notes.txt" />
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Day 12\02 overloading arithmetic operators\03 overloading operator as a global function\Integer.cpp" />
+    <ClCompile Include="Day 12\02 overloading arithmetic operators\03 overloading operator as a global function\Source01.cpp" />
+    <ClCompile Include="Day 12\04 destructor\02 more on destructor\Source01.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Day 12\02 overloading arithmetic operators\03 overloading operator as a global function\Integer.h" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>

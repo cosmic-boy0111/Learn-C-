@@ -17,4 +17,20 @@
   <ItemGroup>
     <Text Include="Day 05\02 extern C\Notes.txt" />
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Day 12\02 overloading arithmetic operators\03 overloading operator as a global function\Integer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Day 12\02 overloading arithmetic operators\03 overloading operator as a global function\Source01.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Day 12\04 destructor\02 more on destructor\Source01.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Day 12\02 overloading arithmetic operators\03 overloading operator as a global function\Integer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
 </Project>
