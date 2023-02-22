@@ -22,11 +22,12 @@
     <Text Include="Day 05\02 extern C\Notes.txt" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Day 11\practice\10 Que\SudokuSolver.h" />
     <ClInclude Include="Day 12\02 overloading arithmetic operators\03 overloading operator as a global function\Integer.h" />
+    <ClInclude Include="Day 14\practice\01 Que\Employee.h" />
+    <ClInclude Include="Day 14\practice\01 Que\Person.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Day 11\practice\10 Que\Source.cpp" />
+    <ClCompile Include="Day 10\practice\Source01.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>

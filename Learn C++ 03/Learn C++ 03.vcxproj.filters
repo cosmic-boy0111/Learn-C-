@@ -21,12 +21,15 @@
     <ClInclude Include="Day 12\02 overloading arithmetic operators\03 overloading operator as a global function\Integer.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Day 11\practice\10 Que\SudokuSolver.h">
+    <ClInclude Include="Day 14\practice\01 Que\Person.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Day 14\practice\01 Que\Employee.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Day 11\practice\10 Que\Source.cpp">
+    <ClCompile Include="Day 10\practice\Source01.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
