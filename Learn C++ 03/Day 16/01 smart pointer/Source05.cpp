@@ -5,9 +5,13 @@ using namespace std;
 class Dummy {
 public:
 	void F();
+private:
+	int m_i;
 };
 
-void Dummy::F() {}
+void Dummy::F() {
+	m_i = 1;
+}
 
 void G() {
 	unique_ptr<Dummy> u(new Dummy);

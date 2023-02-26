@@ -13,8 +13,11 @@ void G() {
 }
 
 int main() {
+	{
+
 	G();
 	G();
+	}
 	_CrtDumpMemoryLeaks();
 }
 

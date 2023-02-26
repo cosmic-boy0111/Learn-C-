@@ -1,6 +1,8 @@
 #include <iostream>
 using namespace std;
 
+#define Radius_error Exception(101, "Radius must be +ve number.", __FUNCTION__, __LINE__);
+
 class Exception {
 public:
 	Exception(int errorcode, const char* description, const char* pfunctionname, int lineno)
@@ -30,7 +32,7 @@ public:
 public:
 	void SetRadius(int radius) {
 		if (radius < 0)
-			throw Exception(101, "Radius must be +ve number.", __FUNCTION__, __LINE__);
+			throw Radius_error;
 		m_radius = radius;
 	}
 };

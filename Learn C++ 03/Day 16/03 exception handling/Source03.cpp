@@ -53,7 +53,7 @@ int main() {
 		cout << e.GetDescription() << endl;
 		cout << e.GetFunctionName() << endl;
 		cout << e.GetLineNo() << endl;
-		//throw; // rethrows the exception
+		throw; // rethrows the exception
 	}
 	catch (Exception &e) {
 		cout << e.GetErrorCode() << endl;
@@ -67,7 +67,7 @@ int main() {
 /*
 - A try block can have multiple catch blocks but a catch block cannot have multiple try blocks.
 - The exception handling mechanism checks for the first catch block that can refer to type of exception object thrown.
-  As soon as if finds same, that catch block is executed and no other catch block is checked.
+  As soon as it finds same, that catch block is executed and no other catch block is checked.
 - Nesting of try...catch is possible.
 - One can throw exception from constructor but should not be thrown from destructor.
 - While writing multiple catch blocks, arrange catch blocks from special exception types to general exception type.

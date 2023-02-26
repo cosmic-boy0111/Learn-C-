@@ -1,11 +1,17 @@
 #include <cstdio>
 #include "b.h"
+#include "Circle.h"
+#include <iostream>
+using namespace std;
 
 int main() {
 
 	int result = Add(1, 2);
 	printf("Result = %d\n", result);
 	//printf("PI = %lf\n", PI);
+
+	Circle u(10);
+	cout << "Area : " << u.GetArea() << endl;
 
 }
 

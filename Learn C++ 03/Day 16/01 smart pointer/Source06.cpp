@@ -5,14 +5,17 @@ using namespace std;
 class Dummy {
 public:
 	void F();
+private:
+	int m_i;
 };
 
-void Dummy::F() {}
+void Dummy::F() {
+	m_i = 1;
+}
 
 void G() {
 	shared_ptr<Dummy> u(new Dummy);
 	u->F();
-
 	shared_ptr<Dummy> v = u; // OK: 'u' can share ownership with 'v'.
 
 	shared_ptr<Dummy> w;

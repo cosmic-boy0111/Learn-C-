@@ -16,6 +16,7 @@
   </ItemGroup>
   <ItemGroup>
     <Text Include="Day 05\02 extern C\Notes.txt" />
+    <Text Include="Day 16\practice\code.txt" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Day 12\02 overloading arithmetic operators\03 overloading operator as a global function\Integer.h">
@@ -27,10 +28,26 @@
     <ClInclude Include="Day 14\practice\01 Que\Employee.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="Day 10\practice\Source01.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
+    <ClInclude Include="Day 16\05 multiple inclusion guards\A.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Day 16\05 multiple inclusion guards\B.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Day 16\05 multiple inclusion guards\C.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Day 13\01 composition\CPU.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Day 13\01 composition\Drive.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Day 13\03 containment\Point.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Day 13\03 containment\PointCollection.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

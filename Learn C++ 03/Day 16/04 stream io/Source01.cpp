@@ -3,7 +3,7 @@
 using namespace std;
 
 int main() {
-	ofstream fout("dictionary.txt");
+	ofstream fout("dictionary.txt", ios::ate);
 	if (!fout) {
 		cout << "File is not opened. Exiting the application.";
 		return 0;

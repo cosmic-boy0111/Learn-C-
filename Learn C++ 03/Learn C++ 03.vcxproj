@@ -20,14 +20,19 @@
   </ItemGroup>
   <ItemGroup>
     <Text Include="Day 05\02 extern C\Notes.txt" />
+    <Text Include="Day 16\practice\code.txt" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Day 12\02 overloading arithmetic operators\03 overloading operator as a global function\Integer.h" />
+    <ClInclude Include="Day 13\01 composition\Drive.h" />
+    <ClInclude Include="Day 13\03 containment\Point.h" />
+    <ClInclude Include="Day 13\03 containment\PointCollection.h" />
     <ClInclude Include="Day 14\practice\01 Que\Employee.h" />
     <ClInclude Include="Day 14\practice\01 Que\Person.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="Day 10\practice\Source01.cpp" />
+    <ClInclude Include="Day 16\05 multiple inclusion guards\A.h" />
+    <ClInclude Include="Day 16\05 multiple inclusion guards\B.h" />
+    <ClInclude Include="Day 16\05 multiple inclusion guards\C.h" />
+    <ClInclude Include="Day 13\01 composition\CPU.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
