@@ -20,5 +20,17 @@ int main() {
   a const lvalue refernce can refer to rvalue.
 - nullptr cannot be assigned to reference. Note rvalue reference can be assigned 0 but not nullptr.
 - Array of references not possible.
+Type	Can bind to
+int&	lvalue
+const int&	lvalue + rvalue
+int&&	rvalue
+int x = 10;
+int& rx = x; // so x is a lvalue as it has persistacne memory. rx is lvalue ref
+
+int&& ry = 10 // 10 is rvalue is is does not have persistant memory. ry is rvalue ref
+
+exception
+cont int& ra = 10; // valid
+cont int& ra = x; // valid
 */
 
