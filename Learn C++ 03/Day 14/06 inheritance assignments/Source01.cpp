@@ -34,4 +34,10 @@ int main() {
 - A base class pointer can point to objects of itself and of derived.
 - A derived class pointer however can point to its own object only i.e
   it cannot point to base object.
+
+  base [base part]
+  derived [base part | derived part]
+
+  base pinter points base part in both class
+  derived need base and derived part that is not present in base class
 */
