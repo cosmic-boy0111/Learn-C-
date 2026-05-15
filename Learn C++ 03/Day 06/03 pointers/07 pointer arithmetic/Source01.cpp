@@ -1,3 +1,7 @@
+// Level	Operators	Meaning
+// 1 (Highest)	x++ x--	postfix increment/decrement
+// 2	++x --x *x	prefix increment/decrement, dereference
+
 int main() {
 	int a[] = { 1, 2, 5 };
 	int * pa = &a[1];
