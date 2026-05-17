@@ -38,12 +38,12 @@ int main() {
 	u.m_k = 3; // E
 
 	B v;
-	v.m_i = 1; // E
+	v.m_i = 1; 
 	v.m_j = 2; // E
 	v.m_k = 3; // E
 
 	C w;
-	w.m_i = 1; // E
+	w.m_i = 1;
 	w.m_j = 2; // E
 	w.m_k = 3; // E
 }
