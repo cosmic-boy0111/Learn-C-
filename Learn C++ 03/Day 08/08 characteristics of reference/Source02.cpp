@@ -4,7 +4,8 @@ int main() {
 	int& k = 1; // rvalue cannot be assigned to lvalue reference
 	const int& l = 1; // but it can be assigned to const lvalue reference
 	int&& m = 0; // though, nullptr cannot be assigned to rvalue reference, 0 or any other number can be assigned
-	int& arr[3]; // array of references not possible
+	int& arr[3]; // array of references not possible 
+	// std::reference_wrapper<int> arr[3] = { i, j, k };  // this is possible in modern CPP
 }
 /*
 - What is lvalue?
